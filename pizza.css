@@ -96,3 +96,20 @@ header{
 .vertical ul li a:hover{
     color: black;
 }
+
+/*Section id#main Style Rules*/
+#main{
+    background-color: rgb(255,211,211);
+    float: left;
+    width: 600px;
+    }
+#main p{
+    font-size: 20px;
+    margin: 15px;
+}
+#main img{
+    float: right;
+    margin: 15px;
+    width: 350px;
+    border-bottom-left-radius: 350px;
+}
