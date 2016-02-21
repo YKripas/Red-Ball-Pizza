@@ -77,3 +77,22 @@ header{
     background-color: rgb(255,101,101);
     color: black;
 }
+
+/*Vertical Navigation List Style Rules*/
+.vertical {
+    clear: left;
+    float: left;
+    width: 200px;
+}
+.vertical ul li{    /*List Items within the vertical navigation menu*/
+    list-style-type: none;
+    text-indent: 20px;
+    margin: 20px 0 20px 0;
+}
+.vertical ul li a{  /*Links within the vertical navigation menu*/
+    color: white;
+    text-decoration: none;
+}
+.vertical ul li a:hover{
+    color: black;
+}
