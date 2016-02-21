@@ -113,3 +113,35 @@ header{
     width: 350px;
     border-bottom-left-radius: 350px;
 }
+
+/*Div 'coupon' element rules*/
+.coupon{
+    border: 5px dashed black;
+    float: left;
+    width: 170px;
+    height: 150px;
+    margin: 20px 10px 20px 10px;
+    background-image: url(slice.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(notice.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: white;
+   
+}
+.coupon h1{
+    color: white;
+    background-color: rgb(192,0,0);
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: center;
+    height: 25px;
+    text-transform: lowercase;
+    
+}
+.coupon p{
+    font-size: 14px;
+    text-align: center;
+    margin: 5px;
+}
