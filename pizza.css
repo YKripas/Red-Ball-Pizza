@@ -145,3 +145,24 @@ header{
     text-align: center;
     margin: 5px;
 }
+
+/*Aside element style rules*/
+aside{
+    float: left;
+    width: 200px;
+}
+aside h1{
+    color: rgb(192,0,0);
+    font-size: 20px;
+    font-kerning:  2px;
+    font-weight: normal;
+    text-align: center;
+}
+aside ul li{
+    background-color: rgb(255,135,135);
+    border-radius: 5px;
+    color: black;
+    list-style-type: none;    
+    margin: 10px;
+    padding: 5px;
+}
