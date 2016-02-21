@@ -10,6 +10,38 @@
    Filename:         pizza.css
    Supporting Files: 
 
+
+Seting main sections of the page as blocks
 */
+header, section, aside, footer, nav{
+    display: block;
+}
 
+*{
+    padding: 0px;
+    margin: 0px;
+}
 
+/*Body style rules*/
+body{
+    background-color: red;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+/*The div id'container' is the whole page*/
+#container{
+    width: 1000px;
+    margin: 0px auto 0px auto;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    background-color: white;
+    background-image: url(redbar.png);
+    background-position: top left;
+    background-repeat: repeat-y;    /*repeating'tilling' an image vertically only*/
+}
+
+/*Header style rules*/
+header{
+    background-color: white;
+    height: 100px;
+}
